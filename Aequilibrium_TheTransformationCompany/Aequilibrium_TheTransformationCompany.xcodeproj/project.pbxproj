@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC4ED2D2029663B0096C12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED2C2029663B0096C12E /* AppDelegate.swift */; };
+		ECC4ED2F2029663B0096C12E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED2E2029663B0096C12E /* FirstViewController.swift */; };
+		ECC4ED312029663B0096C12E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED302029663B0096C12E /* SecondViewController.swift */; };
+		ECC4ED342029663B0096C12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4ED322029663B0096C12E /* Main.storyboard */; };
+		ECC4ED362029663B0096C12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC4ED352029663B0096C12E /* Assets.xcassets */; };
+		ECC4ED392029663B0096C12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4ED372029663B0096C12E /* LaunchScreen.storyboard */; };
+		ECC4ED4220298B060096C12E /* AddTransformerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED4120298B060096C12E /* AddTransformerViewController.swift */; };
+		ECC4ED45202993480096C12E /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED44202993480096C12E /* Transformer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECC4ED292029663B0096C12E /* Aequilibrium_TheTransformationCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aequilibrium_TheTransformationCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4ED2C2029663B0096C12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC4ED2E2029663B0096C12E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ECC4ED302029663B0096C12E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ECC4ED332029663B0096C12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC4ED352029663B0096C12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC4ED382029663B0096C12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC4ED3A2029663B0096C12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC4ED4120298B060096C12E /* AddTransformerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransformerViewController.swift; sourceTree = "<group>"; };
+		ECC4ED44202993480096C12E /* Transformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC4ED262029663B0096C12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC4ED202029663B0096C12E = {
+			isa = PBXGroup;
+			children = (
+				ECC4ED2B2029663B0096C12E /* Aequilibrium_TheTransformationCompany */,
+				ECC4ED2A2029663B0096C12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC4ED2A2029663B0096C12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4ED292029663B0096C12E /* Aequilibrium_TheTransformationCompany.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC4ED2B2029663B0096C12E /* Aequilibrium_TheTransformationCompany */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4ED2C2029663B0096C12E /* AppDelegate.swift */,
+				ECC4ED40202970760096C12E /* View Controllers */,
+				ECC4ED43202993370096C12E /* Models */,
+				ECC4ED322029663B0096C12E /* Main.storyboard */,
+				ECC4ED352029663B0096C12E /* Assets.xcassets */,
+				ECC4ED372029663B0096C12E /* LaunchScreen.storyboard */,
+				ECC4ED3A2029663B0096C12E /* Info.plist */,
+			);
+			path = Aequilibrium_TheTransformationCompany;
+			sourceTree = "<group>";
+		};
+		ECC4ED40202970760096C12E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4ED2E2029663B0096C12E /* FirstViewController.swift */,
+				ECC4ED302029663B0096C12E /* SecondViewController.swift */,
+				ECC4ED4120298B060096C12E /* AddTransformerViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ECC4ED43202993370096C12E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4ED44202993480096C12E /* Transformer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC4ED282029663B0096C12E /* Aequilibrium_TheTransformationCompany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4ED3D2029663B0096C12E /* Build configuration list for PBXNativeTarget "Aequilibrium_TheTransformationCompany" */;
+			buildPhases = (
+				ECC4ED252029663B0096C12E /* Sources */,
+				ECC4ED262029663B0096C12E /* Frameworks */,
+				ECC4ED272029663B0096C12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aequilibrium_TheTransformationCompany;
+			productName = Aequilibrium_TheTransformationCompany;
+			productReference = ECC4ED292029663B0096C12E /* Aequilibrium_TheTransformationCompany.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC4ED212029663B0096C12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Justin Chee";
+				TargetAttributes = {
+					ECC4ED282029663B0096C12E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECC4ED242029663B0096C12E /* Build configuration list for PBXProject "Aequilibrium_TheTransformationCompany" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC4ED202029663B0096C12E;
+			productRefGroup = ECC4ED2A2029663B0096C12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC4ED282029663B0096C12E /* Aequilibrium_TheTransformationCompany */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC4ED272029663B0096C12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4ED392029663B0096C12E /* LaunchScreen.storyboard in Resources */,
+				ECC4ED362029663B0096C12E /* Assets.xcassets in Resources */,
+				ECC4ED342029663B0096C12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC4ED252029663B0096C12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4ED4220298B060096C12E /* AddTransformerViewController.swift in Sources */,
+				ECC4ED312029663B0096C12E /* SecondViewController.swift in Sources */,
+				ECC4ED2D2029663B0096C12E /* AppDelegate.swift in Sources */,
+				ECC4ED45202993480096C12E /* Transformer.swift in Sources */,
+				ECC4ED2F2029663B0096C12E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECC4ED322029663B0096C12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC4ED332029663B0096C12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC4ED372029663B0096C12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC4ED382029663B0096C12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC4ED3B2029663B0096C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC4ED3C2029663B0096C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC4ED3E2029663B0096C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aequilibrium_TheTransformationCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thedistantvoice.Aequilibrium-TheTransformationCompany";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECC4ED3F2029663B0096C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aequilibrium_TheTransformationCompany/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thedistantvoice.Aequilibrium-TheTransformationCompany";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC4ED242029663B0096C12E /* Build configuration list for PBXProject "Aequilibrium_TheTransformationCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4ED3B2029663B0096C12E /* Debug */,
+				ECC4ED3C2029663B0096C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4ED3D2029663B0096C12E /* Build configuration list for PBXNativeTarget "Aequilibrium_TheTransformationCompany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC4ED3E2029663B0096C12E /* Debug */,
+				ECC4ED3F2029663B0096C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC4ED212029663B0096C12E /* Project object */;
+}
