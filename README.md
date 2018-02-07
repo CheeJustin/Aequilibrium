@@ -27,3 +27,4 @@ There should be three tabs, one for viewing the battle results, one for entering
 * For the Special Condition, Optimus Prime and Predaking are case sensitive, meaning 'optimus prime' is treated as a different entity.
 * The output for the "Winning Team" should only show the surviving Transformers from the winning team.
 * The output for the "Survivors of Losing Team" should not show anyone for a "Tie" since both teams did not "lose". However, in the case of the Special Condition, both teams lose since all transformers are destroyed.
+* The sorting for battle matchup starts from the highest ranking instead of the lowest ranking.

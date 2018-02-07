@@ -64,7 +64,7 @@ class TransformerViewController: UIViewController, UIBarPositioningDelegate, UIT
     }
     
     func sortData() {
-        transformers = transformers.sorted(by: { $0.overallRating > $1.overallRating })
+        transformers = transformers.sorted(by: { $0.rank > $1.rank })
         tableView.reloadData()
     }
 }
