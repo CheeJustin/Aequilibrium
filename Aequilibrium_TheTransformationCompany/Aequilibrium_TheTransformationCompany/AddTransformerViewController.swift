@@ -14,11 +14,15 @@ class AddTransformerViewController: UIViewController, UIBarPositioningDelegate
     @IBOutlet var attributeLabels: [UILabel]!
     @IBOutlet weak var doneButton: UIBarButtonItem!
     @IBOutlet weak var nameTextField: UITextField!
+//    @IBOutlet weak var navigationItem: UINavigationItem!
+    @IBOutlet weak var navigation: UINavigationItem!
     
     var onDonePressedHandler: ((_ transformer: Transformer) -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigation.title = title        
         
         nameTextField.addTarget(self, action: #selector(AddTransformerViewController.textFieldDidChange(_:)), for: UIControlEvents.editingChanged)
 
