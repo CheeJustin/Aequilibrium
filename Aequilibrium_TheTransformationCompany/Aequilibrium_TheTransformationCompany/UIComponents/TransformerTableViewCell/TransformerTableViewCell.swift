@@ -20,7 +20,6 @@ class TransformerTableViewCell: UITableViewCell
         nameLabel.text      = transformer.name
         ratingLabel.text    = transformer.overallRating.description
         
-        print(transformer.description)
         if let _ = transformer as? Autobot {
             avatarImageView.image = #imageLiteral(resourceName: "autobot")
             avatarImageView.tintColor = .autobot

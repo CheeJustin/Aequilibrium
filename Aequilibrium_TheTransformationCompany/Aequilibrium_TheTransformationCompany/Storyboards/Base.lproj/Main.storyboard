@@ -39,21 +39,23 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVh-4Z-uej">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Transformer Battle!" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                        <rect key="frame" x="32" y="64" width="311" height="35"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                        <rect key="frame" x="32" y="64" width="311" height="57.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
+                                        <string key="text">Transformer Battle
+Simulator!</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your Transformers information in the Autobots and Decepticons tabs to simulate the outcome of their epic battle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                        <rect key="frame" x="32" y="131" width="311" height="50.5"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Transformer information in the Autobots and Decepticons tabs to simulate the outcome of their epic battle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                                        <rect key="frame" x="32" y="163" width="311" height="50.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KMe-7D-DI9" userLabel="Battle Icon Container">
-                                        <rect key="frame" x="32" y="213.5" width="311" height="64"/>
+                                        <rect key="frame" x="32" y="245.5" width="311" height="64"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="battle" translatesAutoresizingMaskIntoConstraints="NO" id="36s-8s-Mch">
                                                 <rect key="frame" x="143.5" y="20" width="24" height="24"/>
@@ -62,7 +64,7 @@
                                                     <constraint firstAttribute="width" constant="24" id="iS7-4e-kxC"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="decepticon" translatesAutoresizingMaskIntoConstraints="NO" id="wAy-fu-nfz">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="decepticon" translatesAutoresizingMaskIntoConstraints="NO" id="wAy-fu-nfz">
                                                 <rect key="frame" x="183.5" y="0.0" width="64" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="79Z-qV-7hO"/>
@@ -80,7 +82,7 @@
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="autobot" translatesAutoresizingMaskIntoConstraints="NO" id="Z8q-bD-Kpd">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="autobot" translatesAutoresizingMaskIntoConstraints="NO" id="Z8q-bD-Kpd">
                                                 <rect key="frame" x="63.5" y="0.0" width="64" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="ArB-bQ-Hzp"/>
@@ -115,52 +117,61 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Battle Results" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QAf-ch-ey7">
-                                        <rect key="frame" x="32" y="325.5" width="311" height="28"/>
+                                        <rect key="frame" x="32" y="357.5" width="311" height="28"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="24"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Battles:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xF6-Lg-fnI">
-                                        <rect key="frame" x="32" y="369.5" width="285" height="18"/>
+                                        <rect key="frame" x="32" y="409.5" width="285" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aB-Dm-OUw">
-                                        <rect key="frame" x="333" y="369.5" width="10" height="18"/>
+                                        <rect key="frame" x="333" y="409.5" width="10" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winning Team:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PH4-Io-6Wh">
-                                        <rect key="frame" x="32" y="395.5" width="232" height="18"/>
+                                        <rect key="frame" x="32" y="443.5" width="232" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="Sih-aX-PGA"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Autobots" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tst-dY-XeY">
-                                        <rect key="frame" x="280" y="395.5" width="63" height="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Autobots" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tst-dY-XeY">
+                                        <rect key="frame" x="280" y="443.5" width="63" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors of Losing Team:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXn-dc-07Y">
-                                        <rect key="frame" x="32" y="421.5" width="193" height="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Survivors of Losing Team:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXn-dc-07Y">
+                                        <rect key="frame" x="32" y="477.5" width="193" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="eal-8v-8rW"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Db-q7-dDE">
-                                        <rect key="frame" x="241" y="421.5" width="102" height="54"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="HEQ-rI-LH3"/>
-                                        </constraints>
+                                        <rect key="frame" x="241" y="477.5" width="102" height="54"/>
                                         <string key="text">Optimus Prime
 Black Widow
 Bumblebee</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Justin Chee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLB-3D-LMv">
+                                        <rect key="frame" x="32" y="125.5" width="311" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                        <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -171,26 +182,29 @@ Bumblebee</string>
                                     <constraint firstItem="QAf-ch-ey7" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" id="4dQ-ot-e3T"/>
                                     <constraint firstItem="4Db-q7-dDE" firstAttribute="leading" secondItem="YXn-dc-07Y" secondAttribute="trailing" constant="16" id="7a2-aJ-DZO"/>
                                     <constraint firstItem="KQZ-1w-vlD" firstAttribute="leading" secondItem="PVh-4Z-uej" secondAttribute="leading" constant="32" id="9mk-gw-fBi"/>
-                                    <constraint firstItem="YXn-dc-07Y" firstAttribute="top" secondItem="PH4-Io-6Wh" secondAttribute="bottom" constant="8" id="Aon-Hi-eid"/>
                                     <constraint firstItem="KMe-7D-DI9" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="32" id="F2F-dK-272"/>
                                     <constraint firstItem="KMe-7D-DI9" firstAttribute="leading" secondItem="KQZ-1w-vlD" secondAttribute="leading" id="Gmy-HH-jBy"/>
+                                    <constraint firstItem="kLB-3D-LMv" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="4" id="GuV-ut-hUv"/>
                                     <constraint firstItem="tst-dY-XeY" firstAttribute="top" secondItem="PH4-Io-6Wh" secondAttribute="top" id="J4o-Uo-bnC"/>
                                     <constraint firstItem="6aB-Dm-OUw" firstAttribute="trailing" secondItem="QAf-ch-ey7" secondAttribute="trailing" id="JRd-UD-7yC"/>
+                                    <constraint firstItem="kLB-3D-LMv" firstAttribute="leading" secondItem="KQZ-1w-vlD" secondAttribute="leading" id="P3Y-4W-YTj"/>
                                     <constraint firstItem="xF6-Lg-fnI" firstAttribute="leading" secondItem="QAf-ch-ey7" secondAttribute="leading" id="Qfq-ho-4jg"/>
                                     <constraint firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" constant="32" id="RGR-Fm-Xdm"/>
                                     <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="PVh-4Z-uej" secondAttribute="top" constant="64" id="VZ4-ri-21z"/>
                                     <constraint firstItem="4Db-q7-dDE" firstAttribute="top" secondItem="YXn-dc-07Y" secondAttribute="top" id="XGF-zs-Icf"/>
+                                    <constraint firstItem="YXn-dc-07Y" firstAttribute="top" secondItem="tst-dY-XeY" secondAttribute="bottom" constant="16" id="Xkb-Bo-G76"/>
                                     <constraint firstItem="PH4-Io-6Wh" firstAttribute="leading" secondItem="QAf-ch-ey7" secondAttribute="leading" id="Y3g-1X-6JB"/>
                                     <constraint firstItem="6aB-Dm-OUw" firstAttribute="leading" secondItem="xF6-Lg-fnI" secondAttribute="trailing" constant="16" id="aet-jt-Yw8"/>
                                     <constraint firstItem="YXn-dc-07Y" firstAttribute="leading" secondItem="QAf-ch-ey7" secondAttribute="leading" id="cFk-ma-VYg"/>
                                     <constraint firstItem="A5M-7J-77L" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" id="dJ5-TE-EEY"/>
-                                    <constraint firstItem="PH4-Io-6Wh" firstAttribute="top" secondItem="xF6-Lg-fnI" secondAttribute="bottom" constant="8" id="eA2-sr-oAd"/>
+                                    <constraint firstItem="PH4-Io-6Wh" firstAttribute="top" secondItem="xF6-Lg-fnI" secondAttribute="bottom" constant="16" id="eA2-sr-oAd"/>
                                     <constraint firstItem="QAf-ch-ey7" firstAttribute="leading" secondItem="KQZ-1w-vlD" secondAttribute="leading" id="eZK-OW-ux0"/>
-                                    <constraint firstItem="xF6-Lg-fnI" firstAttribute="top" secondItem="QAf-ch-ey7" secondAttribute="bottom" constant="16" id="elP-vn-1aj"/>
+                                    <constraint firstItem="xF6-Lg-fnI" firstAttribute="top" secondItem="QAf-ch-ey7" secondAttribute="bottom" constant="24" id="elP-vn-1aj"/>
+                                    <constraint firstItem="kLB-3D-LMv" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" id="epT-uj-StU"/>
                                     <constraint firstItem="tst-dY-XeY" firstAttribute="leading" secondItem="PH4-Io-6Wh" secondAttribute="trailing" constant="16" id="kVT-JX-9Ka"/>
                                     <constraint firstItem="6aB-Dm-OUw" firstAttribute="top" secondItem="xF6-Lg-fnI" secondAttribute="top" id="mB8-7l-ZTp"/>
-                                    <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="32" id="nDi-c2-li8"/>
                                     <constraint firstItem="A5M-7J-77L" firstAttribute="leading" secondItem="KQZ-1w-vlD" secondAttribute="leading" id="qVH-Vh-ore"/>
+                                    <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="kLB-3D-LMv" secondAttribute="bottom" constant="24" id="svD-Jj-XF8"/>
                                     <constraint firstItem="4Db-q7-dDE" firstAttribute="trailing" secondItem="QAf-ch-ey7" secondAttribute="trailing" id="wrb-8y-XQ5"/>
                                     <constraint firstItem="KMe-7D-DI9" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" id="xcm-DT-EzT"/>
                                 </constraints>
@@ -214,7 +228,7 @@ Bumblebee</string>
                         <outlet property="autobotCountLabel" destination="fcI-Od-BjH" id="pqC-3L-zRu"/>
                         <outlet property="battleCountLabel" destination="6aB-Dm-OUw" id="cUy-HU-yYZ"/>
                         <outlet property="decepticonCountLabel" destination="WXP-Z4-25P" id="sfK-gk-J5G"/>
-                        <outlet property="survivorsLabel" destination="4Db-q7-dDE" id="UQp-SU-klM"/>
+                        <outlet property="losingTeamLabel" destination="4Db-q7-dDE" id="UQp-SU-klM"/>
                         <outlet property="winningTeamLabel" destination="tst-dY-XeY" id="PIP-Xt-Nb6"/>
                     </connections>
                 </viewController>
