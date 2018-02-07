@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8DM-rJ-Azg" customClass="TransformerTableViewCell" customModule="Aequilibrium_TheTransformationCompany" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="538" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8DM-rJ-Azg" id="rM9-uc-OE7">
+                <rect key="frame" x="0.0" y="0.0" width="538" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transformer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-ed-vCf">
+                        <rect key="frame" x="16" y="8" width="440" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUZ-QD-hoJ">
+                        <rect key="frame" x="472" y="8" width="50" height="27.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="K5o-cA-706"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PUZ-QD-hoJ" firstAttribute="leading" secondItem="cqq-ed-vCf" secondAttribute="trailing" constant="16" id="5Vr-ol-f48"/>
+                    <constraint firstAttribute="bottom" secondItem="cqq-ed-vCf" secondAttribute="bottom" constant="8" id="GZ6-sX-Ya6"/>
+                    <constraint firstItem="cqq-ed-vCf" firstAttribute="top" secondItem="rM9-uc-OE7" secondAttribute="top" constant="8" id="Ur2-3J-WyG"/>
+                    <constraint firstAttribute="bottom" secondItem="PUZ-QD-hoJ" secondAttribute="bottom" constant="8" id="Vaf-lS-2ic"/>
+                    <constraint firstItem="PUZ-QD-hoJ" firstAttribute="top" secondItem="rM9-uc-OE7" secondAttribute="top" constant="8" id="ach-tE-DEg"/>
+                    <constraint firstAttribute="trailing" secondItem="PUZ-QD-hoJ" secondAttribute="trailing" constant="16" id="q8R-HV-Qc6"/>
+                    <constraint firstItem="cqq-ed-vCf" firstAttribute="leading" secondItem="rM9-uc-OE7" secondAttribute="leading" constant="16" id="rgu-l3-IRy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="cqq-ed-vCf" id="78x-mW-1MN"/>
+                <outlet property="ratingLabel" destination="PUZ-QD-hoJ" id="yJO-w5-Bo3"/>
+            </connections>
+            <point key="canvasLocation" x="-133" y="131"/>
+        </tableViewCell>
+    </objects>
+</document>

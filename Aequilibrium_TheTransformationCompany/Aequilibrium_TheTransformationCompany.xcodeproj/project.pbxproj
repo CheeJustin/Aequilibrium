@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		ECC4ED2D2029663B0096C12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED2C2029663B0096C12E /* AppDelegate.swift */; };
 		ECC4ED2F2029663B0096C12E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED2E2029663B0096C12E /* FirstViewController.swift */; };
-		ECC4ED312029663B0096C12E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED302029663B0096C12E /* SecondViewController.swift */; };
+		ECC4ED312029663B0096C12E /* AutobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED302029663B0096C12E /* AutobotViewController.swift */; };
 		ECC4ED342029663B0096C12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4ED322029663B0096C12E /* Main.storyboard */; };
 		ECC4ED362029663B0096C12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC4ED352029663B0096C12E /* Assets.xcassets */; };
 		ECC4ED392029663B0096C12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC4ED372029663B0096C12E /* LaunchScreen.storyboard */; };
 		ECC4ED4220298B060096C12E /* AddTransformerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED4120298B060096C12E /* AddTransformerViewController.swift */; };
 		ECC4ED45202993480096C12E /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED44202993480096C12E /* Transformer.swift */; };
+		ECC4ED47202997960096C12E /* Autobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED46202997960096C12E /* Autobot.swift */; };
+		ECC4ED49202997AD0096C12E /* Decepticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4ED48202997AD0096C12E /* Decepticon.swift */; };
+		ECCD30D7202A9F0000F65848 /* TransformerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCD30D6202A9F0000F65848 /* TransformerTableViewCell.xib */; };
+		ECCD30DA202A9FBF00F65848 /* TransformerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD30D9202A9FBF00F65848 /* TransformerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECC4ED292029663B0096C12E /* Aequilibrium_TheTransformationCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aequilibrium_TheTransformationCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC4ED2C2029663B0096C12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC4ED2E2029663B0096C12E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		ECC4ED302029663B0096C12E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ECC4ED302029663B0096C12E /* AutobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutobotViewController.swift; sourceTree = "<group>"; };
 		ECC4ED332029663B0096C12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECC4ED352029663B0096C12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC4ED382029663B0096C12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC4ED3A2029663B0096C12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECC4ED4120298B060096C12E /* AddTransformerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransformerViewController.swift; sourceTree = "<group>"; };
 		ECC4ED44202993480096C12E /* Transformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
+		ECC4ED46202997960096C12E /* Autobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autobot.swift; sourceTree = "<group>"; };
+		ECC4ED48202997AD0096C12E /* Decepticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decepticon.swift; sourceTree = "<group>"; };
+		ECCD30D6202A9F0000F65848 /* TransformerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformerTableViewCell.xib; sourceTree = "<group>"; };
+		ECCD30D9202A9FBF00F65848 /* TransformerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				ECC4ED2C2029663B0096C12E /* AppDelegate.swift */,
+				ECCD30D4202A9EBB00F65848 /* Storyboards */,
+				ECCD30D5202A9ED100F65848 /* UIComponents */,
 				ECC4ED40202970760096C12E /* View Controllers */,
 				ECC4ED43202993370096C12E /* Models */,
-				ECC4ED322029663B0096C12E /* Main.storyboard */,
 				ECC4ED352029663B0096C12E /* Assets.xcassets */,
-				ECC4ED372029663B0096C12E /* LaunchScreen.storyboard */,
 				ECC4ED3A2029663B0096C12E /* Info.plist */,
 			);
 			path = Aequilibrium_TheTransformationCompany;
@@ -75,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				ECC4ED2E2029663B0096C12E /* FirstViewController.swift */,
-				ECC4ED302029663B0096C12E /* SecondViewController.swift */,
+				ECC4ED302029663B0096C12E /* AutobotViewController.swift */,
 				ECC4ED4120298B060096C12E /* AddTransformerViewController.swift */,
 			);
 			name = "View Controllers";
@@ -85,8 +93,36 @@
 			isa = PBXGroup;
 			children = (
 				ECC4ED44202993480096C12E /* Transformer.swift */,
+				ECC4ED46202997960096C12E /* Autobot.swift */,
+				ECC4ED48202997AD0096C12E /* Decepticon.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		ECCD30D4202A9EBB00F65848 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4ED322029663B0096C12E /* Main.storyboard */,
+				ECC4ED372029663B0096C12E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ECCD30D5202A9ED100F65848 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD30D8202A9FA700F65848 /* TransformerTableViewCell */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		ECCD30D8202A9FA700F65848 /* TransformerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD30D6202A9F0000F65848 /* TransformerTableViewCell.xib */,
+				ECCD30D9202A9FBF00F65848 /* TransformerTableViewCell.swift */,
+			);
+			path = TransformerTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +187,7 @@
 				ECC4ED392029663B0096C12E /* LaunchScreen.storyboard in Resources */,
 				ECC4ED362029663B0096C12E /* Assets.xcassets in Resources */,
 				ECC4ED342029663B0096C12E /* Main.storyboard in Resources */,
+				ECCD30D7202A9F0000F65848 /* TransformerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,11 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC4ED49202997AD0096C12E /* Decepticon.swift in Sources */,
+				ECC4ED47202997960096C12E /* Autobot.swift in Sources */,
 				ECC4ED4220298B060096C12E /* AddTransformerViewController.swift in Sources */,
-				ECC4ED312029663B0096C12E /* SecondViewController.swift in Sources */,
+				ECC4ED312029663B0096C12E /* AutobotViewController.swift in Sources */,
 				ECC4ED2D2029663B0096C12E /* AppDelegate.swift in Sources */,
 				ECC4ED45202993480096C12E /* Transformer.swift in Sources */,
 				ECC4ED2F2029663B0096C12E /* FirstViewController.swift in Sources */,
+				ECCD30DA202A9FBF00F65848 /* TransformerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 class Transformer: NSObject
 {
     var name            = ""
@@ -25,5 +26,46 @@ class Transformer: NSObject
         get {
             return strength + ​intelligence + ​speed + ​endurance + firepower
         }
+    }
+    
+    convenience init(name: String) {
+        self.init()
+        
+        self.name = name
+    }
+    
+    override var description: String {
+        return "Transformer"
+    }
+    
+    func transformToAutobot() -> Autobot
+    {
+        let autobot               = Autobot(name: name)
+        autobot.strength          = strength
+        autobot.​intelligence      = ​intelligence
+        autobot.​speed             = ​speed
+        autobot.​endurance         = ​endurance
+        autobot.rank              = rank
+        autobot.courage           = courage
+        autobot.firepower         = firepower
+        autobot.skill             = skill
+        
+        return autobot
+    }
+    
+    
+    func transformToDecepticon() -> Decepticon
+    {
+        let decepticon            = Decepticon(name: name)
+        decepticon.strength       = strength
+        decepticon.​intelligence   = ​intelligence
+        decepticon.​speed          = ​speed
+        decepticon.​endurance      = ​endurance
+        decepticon.rank           = rank
+        decepticon.courage        = courage
+        decepticon.firepower      = firepower
+        decepticon.skill          = skill
+        
+        return decepticon
     }
 }
