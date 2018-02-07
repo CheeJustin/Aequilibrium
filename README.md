@@ -1,6 +1,6 @@
 # Aequilibrium
 
-Take home assignment from Aequilibrium consisting of 2 parts. Part 1: Aequilibrium​ ​|​ ​The​ ​Castle​ ​Company, and Part 2: ​Aequilibrium​ ​|​ ​The​ ​Transformation​ ​Company.
+Take home assignment from Aequilibrium consisting of 2 parts. Part 1: ​The​ ​Castle​ ​Company, and Part 2: ​The​ ​Transformation​ ​Company.
 
 ## Part 1: Aequilibrium​
 
